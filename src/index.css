@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  font-family: "JetBrains Mono", "Space Mono", "IBM Plex Mono", monospace;
+  background-color: #000;
+}
+
+#root {
+  min-height: 100vh;
+}
